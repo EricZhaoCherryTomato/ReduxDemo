@@ -20,8 +20,8 @@ class CoursesPage extends React.Component {
   }
 
   render() {
-    //debugger;
     const {courses} = this.props;
+debugger;
     return (
       <div>
         <h1>Courses</h1>
@@ -41,16 +41,16 @@ CoursesPage.propTypes = {
 };
 
 function mapStateToProps(state, ownProps) {
-  //debugger;
+  debugger;
   return {
     courses: state.courses
   };
 }
 
-function mapDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch) {
   return {
     actions: bindActionCreators(courseActions, dispatch)
   };
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(CoursesPage);
+export default connect(mapStateToProps, mapDispatchToProps)(CoursesPage);

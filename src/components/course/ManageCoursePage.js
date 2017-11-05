@@ -56,7 +56,7 @@ export class ManageCoursePage extends React.Component {
     }
 
     this.setState({saving: true});
-
+ debugger;
     this.props.actions.saveCourse(this.state.course)
       .then(() => this.redirect())
       .catch(error => {
