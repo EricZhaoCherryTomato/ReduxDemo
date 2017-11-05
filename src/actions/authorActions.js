@@ -1,5 +1,4 @@
-/*
-// import AuthorApi from '../api/mockAuthorApi';
+import AuthorApi from '../api/mockAuthorApi';
 import * as types from './actionTypes';
 import {beginAjaxCall} from './ajaxStatusActions';
 
@@ -17,4 +16,4 @@ export function loadAuthors() {
     });
   };
 }
-*/
+
